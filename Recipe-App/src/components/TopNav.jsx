@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import {AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineSearch, AiOutlineClose} from 'react-icons/ai'
 import {BsFillCartFill, BsPerson} from 'react-icons/bs'
 import {TbTruckReturn} from 'react-icons/tb'
-// import {FaUserFriends, FaGoogleWaller} from 'react-icons/fa'
-// import {MdHelp, MdOutlineFavourite} from 'react-icons'
+import {FaGoogleWallet} from 'react-icons/fa'
+import {MdHelp, MdOutlineFavorite} from 'react-icons/md'
 
 const TopNav = () => {
   const [sideNav, setSideNav] = useState(true)
@@ -65,22 +65,22 @@ const TopNav = () => {
                 Delivery
               </li>
               <li className='text-xl py-4 flex'>
-                <BsPerson size={25} 
+                <MdOutlineFavorite size={25} 
                 className='mr-4 text-white bg-black rounded-full'
                 /> 
-                My Account
+                My Favourite
               </li>
               <li className='text-xl py-4 flex'>
-                <BsPerson size={25} 
+                <FaGoogleWallet size={25} 
                 className='mr-4 text-white bg-black rounded-full'
                 /> 
-                My Account
+                My Wallet
               </li>
               <li className='text-xl py-4 flex'>
-                <BsPerson size={25} 
+                <MdHelp size={25} 
                 className='mr-4 text-white bg-black rounded-full'
                 /> 
-                My Account
+                Help
               </li>
             </ul>
           </nav>
