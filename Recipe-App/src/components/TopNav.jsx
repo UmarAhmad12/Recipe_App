@@ -6,7 +6,7 @@ import {FaGoogleWallet} from 'react-icons/fa'
 import {MdHelp, MdOutlineFavorite} from 'react-icons/md'
 
 const TopNav = () => {
-  const [sideNav, setSideNav] = useState(true)
+  const [sideNav, setSideNav] = useState(false)
   // console.log(sideNav);
   return (
     <div className='max-w-[1520px] mx-auto flex justify-between items-center p-4'>
