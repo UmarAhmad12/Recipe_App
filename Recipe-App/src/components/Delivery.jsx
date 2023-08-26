@@ -13,6 +13,7 @@ const Delivery = () => {
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quae quasi repellat natus accusamus delectus illo atque qui vitae obcaecati. Quasi itaque, corrupti dolorem nisi voluptatem maiores! Voluptate ducimus provident culpa. Rerum aut atque fugiat autem, ipsum accusantium illum ipsam! Quam expedita illum sint, praesentium repellendus blanditiis et deserunt reiciendis iusto nisi voluptas quod? Aspernatur repellat rem nihil quod consectetur et incidunt voluptas fuga, quas suscipit, aliquid ad. Omnis quasi maiores ad saepe quidem sequi maxime id animi quae! Necessitatibus dolores ullam, accusamus obcaecati esse perspiciatis hic nulla placeat. Nostrum numquam repellat temporibus blanditiis doloribus, esse magni exercitationem rerum praesentium.
   </p>
+  <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
 </div>
       </div>
     </div>
